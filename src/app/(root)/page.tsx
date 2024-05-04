@@ -3,6 +3,8 @@
 import { Modal } from "@/components/ui/modal";
 import { useStoreModal } from "../../../hooks/use-store-modal";
 import { useEffect } from "react";
+import { UserButton } from "@clerk/nextjs";
+
 
 const SetupPage = () => {
 
@@ -19,6 +21,7 @@ const SetupPage = () => {
         <>
             <div className="p-4">
               Root Page
+              {/* <UserButton /> */}
             </div>
         </>
     );
